@@ -1,6 +1,18 @@
 {
   "name": "api-template",
   "version": "0.0.1",
+  "description" : "API template wth QA and dev ops tools",
+  "author" : "Kevin Kohut <kevin@apicloudguru.com>",
+  "scripts" : {
+    "start" : "node server.js"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/apicloudguru/api-template.git"
+  },
+  "bugs" : {
+    "url" : "https://github.com/apicloudguru/poc.git/issues"
+  },
   "dependencies": {
   	"istanbul" : ">=0.4.1",
   	"jscs" : ">=2.8.0",
@@ -10,5 +22,6 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  }
+  },
+  "license" : "MIT"
 }
